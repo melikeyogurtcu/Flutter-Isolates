@@ -1,16 +1,23 @@
 # isolate_tutorial
 
-A new Flutter project.
+Flutter'da Isolate kullanımı, Dart dilinin bir tür çok iş parçacıklı (multithreading) programlamayı destekleme şeklidir.
+Bu repo Isolate'lerin işlevini anlamak için temel bir uygulama içerir.
 
-## Getting Started
+## Başlangıç
 
-This project is a starting point for a Flutter application.
+1. **Kurulum**
+   
+   Projeyi klonlayın ve gerekli paketleri yükleyin:
+   ```bash
+   git clone https://github.com/melikeyogurtcu/Flutter-Isolates.git 
+2. **Gerekli paketleri yükleyin:**
 
-A few resources to get you started if this is your first Flutter project:
+    ```bash
+   flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Isolate'leri Test Etme
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Isolate ile çalıştırdığımız buton rahatça çalışabilirken Isolate olmadan çalışan butonun donarak
+çalıştığını gözlemleyebiliriz.
+
+<img src="images/Isolates.gif" alt="Isolates GIF">
